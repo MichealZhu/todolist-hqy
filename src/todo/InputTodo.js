@@ -103,7 +103,7 @@ const InputTodo = () => {
         localStorage.removeItem('TODO_VALUES');
         localStorage.setItem('TODO_VALUES',JSON.stringify(temp));
     }
-    
+
     const changeTodo = (e) => {
         setTodoText(e.target.value);
     }
@@ -117,8 +117,8 @@ const InputTodo = () => {
 
     return(
         <Container>
-            <InputBox maxlength="10" placeholder="Input Text" autoFocus onChange={changeTodo} value={todoText} onKeyPress={onKeyPress}/>
-            <SubmitBtn onClick={handleSubmit}>ADD</SubmitBtn>
+            <InputBox maxlength="10" placeholder="请输入" autoFocus onChange={changeTodo} value={todoText} onKeyPress={onKeyPress}/>
+            <SubmitBtn onClick={handleSubmit}>添加</SubmitBtn>
             <TodoList todoTexts={todoTexts} removeItem={removeItem} handleCheck={handleCheck}/>
         </Container>
     );

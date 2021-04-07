@@ -35,7 +35,7 @@ const GlobalStyles = createGlobalStyle`
     }
     body {
         font-family: "NanumGothic";
-        background: linear-gradient( to bottom, #FF4A4F, #FF5C7D );
+        // background: linear-gradient( to bottom, #FF4A4F, #FF5C7D );
     }
 `;
 
@@ -65,7 +65,7 @@ const Template = () => {
     });
 
     const getToday = () => {
-        let today = new Date();  
+        let today = new Date();
         let year = today.getFullYear(); // 년도
         let month = today.getMonth() + 1;  // 월
         let date = today.getDate();  // 날짜
@@ -82,11 +82,11 @@ const Template = () => {
     }
 
     return(
-        
+
         <>
             <GlobalStyles/>
             <Container>
-                <Title>To-Do List</Title>
+                <Title>黄小胖 To-Do List</Title>
                 <DateTitle>{today}</DateTitle>
                 <InputTodo/>
             </Container>

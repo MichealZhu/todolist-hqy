@@ -12,6 +12,7 @@ const TextLine = styled.span`
 
 const NormalLine = styled.span`
     margin-left: 5px;
+    color: #d00ddd;
 `;
 const Container = styled.div`
     display:flex;
@@ -43,7 +44,7 @@ const TodoItem = (props) => {
                                     removeItem(id);
                                 }}/>
                             </IconContext.Provider>
-                            
+
                         </Container>
                     </div>
                 ):(
@@ -61,7 +62,7 @@ const TodoItem = (props) => {
                             <IconContext.Provider value={{ color:"#555", size:"1.5em", className: "global-class-name" }}>
                                 <IoMdClose/>
                             </IconContext.Provider>
-                            
+
                         </Container>
                     </div>
                 )
