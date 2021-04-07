@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/todolist-hqy/static/css/main.d611f5bc.chunk.css",
-    "main.js": "/todolist-hqy/static/js/main.1581ab3c.chunk.js",
-    "main.js.map": "/todolist-hqy/static/js/main.1581ab3c.chunk.js.map",
+    "main.js": "/todolist-hqy/static/js/main.779fd9a2.chunk.js",
+    "main.js.map": "/todolist-hqy/static/js/main.779fd9a2.chunk.js.map",
     "runtime-main.js": "/todolist-hqy/static/js/runtime-main.ef4e8dcb.js",
     "runtime-main.js.map": "/todolist-hqy/static/js/runtime-main.ef4e8dcb.js.map",
-    "static/js/2.afd96761.chunk.js": "/todolist-hqy/static/js/2.afd96761.chunk.js",
-    "static/js/2.afd96761.chunk.js.map": "/todolist-hqy/static/js/2.afd96761.chunk.js.map",
+    "static/js/2.8f5525d1.chunk.js": "/todolist-hqy/static/js/2.8f5525d1.chunk.js",
+    "static/js/2.8f5525d1.chunk.js.map": "/todolist-hqy/static/js/2.8f5525d1.chunk.js.map",
     "index.html": "/todolist-hqy/index.html",
-    "precache-manifest.89510e242eb6c8603ea8ed75684e2671.js": "/todolist-hqy/precache-manifest.89510e242eb6c8603ea8ed75684e2671.js",
+    "precache-manifest.3bc5a3dbd536fdce074a14e9bdd43b8d.js": "/todolist-hqy/precache-manifest.3bc5a3dbd536fdce074a14e9bdd43b8d.js",
     "service-worker.js": "/todolist-hqy/service-worker.js",
     "static/css/main.d611f5bc.chunk.css.map": "/todolist-hqy/static/css/main.d611f5bc.chunk.css.map",
-    "static/js/2.afd96761.chunk.js.LICENSE.txt": "/todolist-hqy/static/js/2.afd96761.chunk.js.LICENSE.txt"
+    "static/js/2.8f5525d1.chunk.js.LICENSE.txt": "/todolist-hqy/static/js/2.8f5525d1.chunk.js.LICENSE.txt",
+    "static/media/say.jpg": "/todolist-hqy/static/media/say.d35b8ca5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ef4e8dcb.js",
-    "static/js/2.afd96761.chunk.js",
+    "static/js/2.8f5525d1.chunk.js",
     "static/css/main.d611f5bc.chunk.css",
-    "static/js/main.1581ab3c.chunk.js"
+    "static/js/main.779fd9a2.chunk.js"
   ]
 }
